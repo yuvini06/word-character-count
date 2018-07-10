@@ -8,7 +8,7 @@ This project allows you to observe this characteristic in the English language u
 
 ## Control Arguments for the Program:
 
-- ###### File name/ File Names ###### 
+- ** File name/ File Names ** 
 The program can accept any number of file names in any order.
 
 - Number of rows in the chart
