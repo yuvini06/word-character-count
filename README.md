@@ -8,22 +8,28 @@ This project allows you to observe this characteristic in the English language u
 
 ## Control Arguments for the Program:
 
-- ** File name/ File Names ** 
+- **File name/ File Names** 
+
 The program can accept any number of file names in any order.
 
-- Number of rows in the chart
+- **Number of rows in the chart**
+
 The argument specifies the number of rows in the bar chart. It should be given as -l 10 where 10 is the limit. It can be any positive integer. A number should always follow the -l argument. The pair can be in any place of the arguments list.
 
-- Scaled option
+- **Scaled option**
+
 When –scaled argument is given, the first row of the graph fully occupies the max print width. Any other row should scale to be matched with first row scale factor.
 
-- Word/ Character toggle
+- **Word/ Character toggle**
+
 The program can analyse two modes of frequencies, characters and words. If the output should be given as words, the -w should be given whereas -c argument will give character frequency output.
 
-- Default options
+- **Default options**
+
 The program must take at least one file name to work. All other arguments are optional. If not given, the program will work as non-scaled, will output frequencies for words and limit the output rows to 10.
 
-- Pre-processing
+- **Pre-processing**
+
 All the non-alphanumeric characters will be removed from the text. For example, the word b@dW0rd is changed into bdW0rd. Then, it should be converted into the lower-case string, and only the processed words will be taken into calculations. While printing, if two words share the same frequency, the first occurred word in the text will be printed first on the chart. Also, all the numbers should have two decimal places only.
 
 
